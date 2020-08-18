@@ -126,3 +126,7 @@ USE_TZ = True
 STATIC_ROOT = BASE_DIR / 'static'
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'btre/static']
+
+# media folder setting
+MEDIA_ROOT = BASE_DIR / 'media'
+STATIC_URL = '/media/'
