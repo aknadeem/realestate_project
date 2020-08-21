@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'accounts.apps.AccountsConfig',
     'pages.apps.PagesConfig',
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
@@ -131,3 +132,9 @@ STATICFILES_DIRS = [BASE_DIR / 'btre/static']
 # media folder setting
 MEDIA_ROOT = BASE_DIR / 'media'
 STATIC_URL = '/media/'
+
+# Messages 
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger'
+}
