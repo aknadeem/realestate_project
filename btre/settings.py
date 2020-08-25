@@ -25,7 +25,8 @@ SECRET_KEY = ')s!bzz+)k46iagz4h+fa-+1&w_da$cis(f)f^@+*@m@mvuo6hb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# for development * is ok must be changed for production
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -85,7 +86,8 @@ DATABASES = {
         'NAME': 'btredb',
         'USER': 'postgres',
         'PASSWORD': 'password',
-        'HOST': 'localhost'
+        'HOST': 'db',
+        'PORT': 5432
     }
 }
 
