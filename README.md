@@ -38,6 +38,6 @@ A Dockerized real estate listings website built with `Docker` `python` `django` 
 
 # Acknowledgments
 
-	Many thanks to [@bradtraversy](https://github.com/bradtraversy) for your brilliant course. It must have been the best Django Course I've had throughout my study here. 
+Many thanks to [@bradtraversy](https://github.com/bradtraversy) for your brilliant course. It must have been the best Django Course I've had throughout my study here. 
 
 
